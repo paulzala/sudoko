@@ -1,0 +1,47 @@
+div.sudokuBoard {
+  width: 276px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+div.quadrantRow {
+  display: flex;
+  flex-flow: row nowrap;
+  /* box-sizing: border-box; */
+  /* height: 90px; */
+}
+
+div.quadrant {
+  border: 1px solid black;
+}
+
+div.cellRow {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+div.cell {
+  border: 1px solid hsla(0, 0%, 60%, 1);
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+div.staticCell {
+  background-color: hsl(0, 0%, 85%);
+}
+
+div.cellContent {
+  width: 30px;
+}
+
+div.cell .static {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+div.cell .guessed {
+  font-size: 20px;
+  line-height: 30px;
+  color: hsla(0, 0%, 0%, 0.6);
+}

@@ -1,3 +1,15 @@
+# PZ README
+
+## TODO
+
+- Change the flexbox for grid.
+- Create the state
+- Re-organise the code so that the quadrants are rendered with functions rather than all explicitly
+- Add clickhandler and attach it to a modal
+- Add number keyboard bindings to the number selections
+
+#########
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
