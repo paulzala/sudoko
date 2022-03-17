@@ -2,11 +2,7 @@
 
 ## TODO
 
-- Change the flexbox for grid.
-- Create the state
-- Re-organise the code so that the quadrants are rendered with functions rather than all explicitly
-- Add clickhandler and attach it to a modal
-- Add number keyboard bindings to the number selections
+- For guessing, add number keyboard bindings to the number selections instead of the input
 
 #########
 
