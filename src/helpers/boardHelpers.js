@@ -2,7 +2,7 @@ const getRandomBoard = () => {
   //okay so its not random yet.
   // Boards are stored as full rows, left to right, then onto the next line.
   // The filled is the same, 1 being a static number on the board, 0 requiring user to guess it.
-  const boardFromFrontCover = {
+  /* const boardFromFrontCover = {
     numbers: [
       8, 3, 1, 4, 2, 9, 7, 6, 5, 6, 4, 7, 5, 8, 3, 2, 1, 9, 9, 5, 2, 7, 1, 6, 8,
       4, 3, 5, 1, 4, 6, 3, 7, 9, 2, 8, 2, 6, 3, 8, 9, 5, 1, 7, 4, 7, 8, 9, 1, 4,
@@ -15,7 +15,7 @@ const getRandomBoard = () => {
       0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0,
       1, 0, 0, 1, 1, 0,
     ],
-  };
+  }; */
 
   const boardIScrewedUp1 = {
     numbers: [
